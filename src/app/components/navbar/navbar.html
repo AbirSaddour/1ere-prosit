@@ -1,0 +1,5 @@
+<nav>
+  @for (link of links(); track link) {
+    <a href="#" [class.active]="active() === link" (click)="active.set(link)">{{ link }}</a>
+  }
+</nav>

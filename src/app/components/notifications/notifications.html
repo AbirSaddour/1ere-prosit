@@ -1,0 +1,10 @@
+<section class="card orange">
+  <div class="icon">🔔</div>
+  <div>
+    <h2>Zone de notifications</h2>
+    @if (show()) {
+      <p>Vous avez 2 nouvelles notifications.</p>
+    }
+    <button (click)="toggle()">Afficher les notifications</button>
+  </div>
+</section>
